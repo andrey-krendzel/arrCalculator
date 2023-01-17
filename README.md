@@ -1,5 +1,5 @@
 # Endpoints
-* GET /calculate/{array} endpoind accepts an array of integeres, then calculates the missing positive integer from the array and returns it.
+* GET /calculate/{array} endpoint accepts an array of integers, then calculates the missing positive integer from the array and returns it.
 
 Example 1: *http://localhost:8080/calculate/1,5,3,2,0,1,-3,-6,-4*
 
