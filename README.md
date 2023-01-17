@@ -28,3 +28,4 @@ There are two tests with MockMVC to the GET endpoints in the test folder.
 # ToDo
 
 - Write two MockMVC tests for the POST endpoint
+- Add demo to Heroku
