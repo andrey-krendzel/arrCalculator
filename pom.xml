@@ -14,7 +14,7 @@
 	<name>arrCalculator</name>
 	<description>Takes an array as URL parameter, calculates lowest positive number. </description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
