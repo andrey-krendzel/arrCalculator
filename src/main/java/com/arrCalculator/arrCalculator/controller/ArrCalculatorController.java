@@ -26,9 +26,6 @@ class ArrCalculatorController {
             }
         }
 
-        System.out.println("Smallest positive: " + missingPositive);
-
-
         while(true){
             if (Arrays.asList(array).contains(missingPositive)){
                 missingPositive++; //If array contains missingPositive, increase missingPositive int by 1
@@ -41,6 +38,8 @@ class ArrCalculatorController {
         return new ResponseEntity<>(missingPositive, HttpStatus.OK);
 
     }
+
+
 }
 
 

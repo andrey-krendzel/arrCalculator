@@ -8,3 +8,5 @@ Returns 4.
 *http://localhost:8080/calculate/5,1,0,4,10,6,-3,-2* 
 
 Returns 2
+
+There are two tests with MockMVC to these GET endpoints in the test folder. 
