@@ -5,9 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.function.Predicate;
 
 @RestController
 class ArrCalculatorController {
@@ -40,7 +38,7 @@ class ArrCalculatorController {
     public ResponseEntity<Integer> calculateAlternative(@RequestBody Integer[] array) {
         int missingPositive = 999;
 
-        //Go through the array, find smallest positive number. Assume that's the missing positive
+        //Go through the array, find smallest positive number. Assume that's the missing positive.
         for (int number : array) {
             if (number > 0 && number < missingPositive) {
                 missingPositive = number;
