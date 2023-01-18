@@ -29,5 +29,8 @@ There are three tests with MockMVC to the POST endpoint in the test folder.
 
 ## ToDo
 
-- Logic is duplicated for GET and POST request. Place logic in a separate Class.
+- ~~Add GET/POST tests~~
+- ~~Make it so app supports array with integers bigger than 999~~
+- ~~Logic is duplicated for GET and POST request. Place logic in a separate Class.~~
+- ~~Deploy to Heroku or Netlify~~ Heroku deployment failed with 3 different SDKs, Netlify doesn't support Java Spring Boot
 - Deploy to AWS Cloud
