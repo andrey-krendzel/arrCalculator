@@ -1,4 +1,4 @@
-package com.arrCalculator.arrCalculator.controller;
+package com.FindPositiveMissingNumber.controller;
 
 
 import org.springframework.http.HttpStatus;
@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Arrays;
 
 @RestController
-class ArrCalculatorController {
+class FindPositiveMissingNumberController {
 
-    @GetMapping("/calculate/{array}")
+    @GetMapping("/calculateFromArray/{array}")
     public ResponseEntity<Integer> calculate(@PathVariable("array") Integer[] array) {
-        int missingPositive = 999;
+        int missingPositive = Integer.MAX_VALUE;
 
         //Go through the array, find smallest positive number. Assume that's the missing positive
         for (int number : array) {
@@ -34,9 +34,9 @@ class ArrCalculatorController {
 
     }
 
-    @PostMapping("/calculateAlternative")
+    @PostMapping("/calculateFromArray")
     public ResponseEntity<Integer> calculateAlternative(@RequestBody Integer[] array) {
-        int missingPositive = 999;
+        int missingPositive = Integer.MAX_VALUE;
 
         //Go through the array, find smallest positive number. Assume that's the missing positive.
         for (int number : array) {
@@ -53,10 +53,15 @@ class ArrCalculatorController {
             }
         }
 
-
         return new ResponseEntity<>(missingPositive, HttpStatus.OK);
     }
 
+    //For AWS cloud
+
+    @GetMapping("/")
+    public String health() {
+        return "Application is working properly";
+    }
 
 }
 

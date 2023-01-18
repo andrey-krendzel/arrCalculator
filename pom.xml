@@ -8,11 +8,11 @@
 		<version>3.0.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.arrCalculator</groupId>
-	<artifactId>arrCalculator</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>arrCalculator</name>
-	<description>Takes an array as URL parameter, calculates lowest positive number. </description>
+	<groupId>com.FindPositiveMissingNumber</groupId>
+	<artifactId>FindPositiveMissingNumber</artifactId>
+	<version>1</version>
+	<name>FindPositiveMissingNumber</name>
+	<description>Takes an array as URL parameter, calculates the lowest missing positive number. </description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
