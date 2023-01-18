@@ -26,3 +26,8 @@ Returns 2 just as the second GET request.
 There are two tests with MockMVC to the GET endpoint in the test folder.
 
 There are three tests with MockMVC to the POST endpoint in the test folder.
+
+## ToDo
+
+- Logic is duplicated for GET and POST request. Place logic in a separate Class.
+- Deploy to AWS Cloud

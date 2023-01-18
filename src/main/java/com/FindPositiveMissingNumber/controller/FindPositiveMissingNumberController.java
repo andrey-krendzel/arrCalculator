@@ -29,6 +29,10 @@ class FindPositiveMissingNumberController {
             }
         }
 
+        //Right now the search for missing positive int begins from smallest positive int in the array.
+        //So, in the array [1001, 999], the missing int would be 1000
+        //If we start the count from 1, this logic can be simplified. However, then in all arrays where 1 is missing,
+        //1 will be the missing int.
 
         return new ResponseEntity<>(missingPositive, HttpStatus.OK);
 
