@@ -28,4 +28,5 @@ There are two tests with MockMVC to the GET endpoints in the test folder.
 # ToDo
 
 - Write two MockMVC tests for the POST endpoint
-- Add demo to Heroku
+- ~~Deploy to Heroku~~ (attempted with Java SDK 17, 11 and 8. Builds failed)
+- Deploy to AWS cloud

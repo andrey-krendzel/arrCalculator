@@ -14,7 +14,6 @@ class ArrCalculatorController {
 
     @GetMapping("/calculate/{array}")
     public ResponseEntity<Integer> calculate(@PathVariable("array") Integer[] array) {
-        int firstPositive = 0;
         int missingPositive = 999;
 
         //Go through the array, find smallest positive number. Assume that's the missing positive
@@ -39,7 +38,6 @@ class ArrCalculatorController {
 
     @PostMapping("/calculateAlternative")
     public ResponseEntity<Integer> calculateAlternative(@RequestBody Integer[] array) {
-        int firstPositive = 0;
         int missingPositive = 999;
 
         //Go through the array, find smallest positive number. Assume that's the missing positive
