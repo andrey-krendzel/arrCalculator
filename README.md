@@ -23,10 +23,12 @@ Example 2:
 
 Returns 2 just as the second GET request.
 
-There are two tests with MockMVC to the GET endpoints in the test folder.
+There are two tests with MockMVC to the GET endpoint in the test folder.
+
+There are two tests with MockMVC to the POST endpoint in the test folder.
 
 # ToDo
 
-- Write two MockMVC tests for the POST endpoint
+- ~~Write two MockMVC tests for the POST endpoint~~ (done)
 - ~~Deploy to Heroku~~ (attempted with Java SDK 17, 11 and 8. Builds failed)
 - Deploy to AWS cloud
